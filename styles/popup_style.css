@@ -1,0 +1,46 @@
+ 
+	/*общая форма*/
+	body {
+        min-width: 100%;
+        max-width: 400px;
+        max-height: 100%;
+		background-color:darkgrey;
+        /*max-height: 600px;*/
+      }
+	  /*иконки сайтов*/
+    img {
+        margin: 5px;
+        border: 0px solid black;
+        vertical-align: middle;
+        width: 16px;
+        height: 16px;
+      }
+	  
+	  /*отступы между строками*/
+    .node {
+        border-collapse:separate;
+        border-spacing:0px 0px;
+      }
+	  
+	  /*строки с информацией о вкладках*/
+    .title {
+        /*width: 350px;*/
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: Helvetica;
+        font-size: 12px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+	  /*кнопка закрытия вкладки*/
+    .xbutton {
+		background: url(icons/close.png) no-repeat;
+        width: 10px;
+        height: 10px;
+        vertical-align: middle;
+      }
+    /* строки выводимой таблицы*/
+	.cell1 {
+        white-space: nowrap;
+      }

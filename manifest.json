@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/tree_x128.png",
+      "default_popup": "main.html"
+   },
+   "description": "Show you tabs in treevision",
+   "icons": {
+      "128": "icons/tree_x128.png",
+      "16": "icons/tree_x16.png",
+      "32": "icons/tree_x32.png",
+      "48": "icons/tree_x48.png"
+   },
+   "manifest_version": 2,
+   "name": "TabTree",
+   "permissions": [ "tabs" ],
+   "version": "1.0"
+}
