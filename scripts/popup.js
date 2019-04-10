@@ -54,13 +54,15 @@ function Node(tab, domain) {
 
     this.elem = document.createElement('table')
     this.elem.setAttribute('class', 'node')
-    // table structure
+    
+	// table structure
     var row1 = document.createElement('tr')
     this.elem.appendChild(row1)
     var cell1 = document.createElement('td')
     cell1.setAttribute('class', 'cell1')
     cell1.setAttribute('colspan', '2')
     row1.appendChild(cell1)
+
 
     var row2 = document.createElement('tr')
     this.elem.appendChild(row2)
