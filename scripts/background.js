@@ -37,11 +37,11 @@ function pinTabListener(request, sender, sendResponse) {
         chrome.tabs.getSelected(null, pinTab);
     }
 }
-/*
+
 function sortTabInfo(a, b) {
     return b.lastUse - a.lastUse;
 }
-*/
+
 function currentTime() {
     var date = new Date();
     return date.getTime(); 

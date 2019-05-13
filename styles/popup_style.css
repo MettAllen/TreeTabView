@@ -2,31 +2,29 @@
 	/*общая форма*/
 	body {
         min-width: 100%;
-		max-height:100%;
-		max-width:400px;
-        max-height:500px;
-		}
+        max-width: 400px;
+        max-height: 100%;
+		background-color:darkgrey;
+        /*max-height: 600px;*/
+      }
 	  /*иконки сайтов*/
     img {
         margin: 5px;
+        border: 0px solid black;
         vertical-align: middle;
         width: 16px;
         height: 16px;
       }
 	  
-	  /*оформление строки*/
+	  /*отступы между строками*/
     .node {
-
-		background-color: rgba(0, 0, 0, 0.4);
         border-collapse:separate;
-        border-spacing: 2px 2px;
-		color: white;
-		font-weight:bold;
+        border-spacing:0px 0px;
       }
 	  
 	  /*строки с информацией о вкладках*/
     .title {
-		/*background: rgba(0, 0, 0, 0.4);*/
+        /*width: 350px;*/
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
