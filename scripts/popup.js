@@ -60,7 +60,12 @@ function Node(tab, domain) {
     var cell1 = document.createElement('td')
     cell1.setAttribute('class', 'cell1')
     cell1.setAttribute('colspan', '2')
-    row1.appendChild(cell1)
+	
+//    var cell11 = document.createElement('td')
+//    cell1.innerHTML=123
+	row1.appendChild(cell1)
+//	row1.cols[2].innerHTML="All"
+	
 
     var row2 = document.createElement('tr')
     this.elem.appendChild(row2)
