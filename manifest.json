@@ -14,7 +14,7 @@
       "48": "icons/tree_x48.png"
    },
    "manifest_version": 2,
-   "name": "TabTree",
+   "name": "TabTreeView",
    "permissions": [ "tabs" ],
-   "version": "1.0"
+   "version": "1.2"
 }
